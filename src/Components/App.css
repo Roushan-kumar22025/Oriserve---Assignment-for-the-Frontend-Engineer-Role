@@ -1,0 +1,48 @@
+/* src/components/SearchBar.css */
+.search-bar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000; /* Black background color */
+    height: 20%; /* 1/5th of the page height */
+    text-align: center;
+  }
+  
+  .search-heading {
+    color: #fff; /* Text color for the heading */
+    padding: 16px;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .search-bar {
+    display: inline-block;
+  }
+  
+  .search-bar input {
+    padding: 10px; /* Increase the padding for a larger input */
+    width: 400px; /* Increase the width as needed */
+    border: 1px solid #ccc;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px; /* Adjust button padding */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    /* Other styles for suggestions... */
+  }
+  
